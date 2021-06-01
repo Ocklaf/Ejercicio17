@@ -2,6 +2,13 @@
 	"folders": [
 		{
 			"path": "."
+		},
+		{
+			"name": "Ejercicio17",
+			"path": "Ejercicio17"
 		}
-	]
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Ejercicios_15_a_17"
+	}
 }

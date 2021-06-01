@@ -49,7 +49,7 @@ conversor(11235, 10) */
 de aplicar un descuento a una cantidad dada, 
 pe. miFuncion(1000, 20) devolverá 800.*/
 
-const porcentajeDescuento = (valor=undefined, descuento=undefined) =>{
+/* const porcentajeDescuento = (valor=undefined, descuento=undefined) =>{
     if(valor === undefined) return console.warn("No has introducido un valor")
     if(typeof valor !== "number") return console.error("No es un número")
     if(descuento === undefined) return console.warn("No has introducido un valor")
@@ -62,10 +62,19 @@ const porcentajeDescuento = (valor=undefined, descuento=undefined) =>{
     console.info(`El precio final del producto aplicando el descuento es: ${precioFinal}€`)
 }
 
-porcentajeDescuento(512.1, 20)
+porcentajeDescuento(512.1, 20) */
 
 
 
 /*17) Programa una función que dada una fecha válida determine 
 cuantos años han pasado hasta el día de hoy, 
 pe. miFuncion(new Date(1984,4,23)) devolverá 35 años (en 2020). */
+
+const howManyYearsOld = (date=undefined) =>{
+    let fechaActual = new Date()
+    fechaActual = fechaActual.getFullYear()
+    fechaActual = fechaActual - date.getFullYear()
+    console.info(`Tienes ${fechaActual} años`)
+}
+
+howManyYearsOld(new Date(1984,2,6))
