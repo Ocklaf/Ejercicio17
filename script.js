@@ -77,4 +77,4 @@ const howManyYearsOld = (date=undefined) =>{
     console.info(`Tienes ${fechaActual} años`)
 }
 
-howManyYearsOld(new Date(1984,2,6))
+howManyYearsOld(new Date(1984,2,7))
